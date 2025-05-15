@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e  # Exit immediately if a command exits with a non-zero status
+
 if [ "$#" -ne 1 ]; then
     echo "Usage: ./upload.sh  destination-bucket-name"
     exit

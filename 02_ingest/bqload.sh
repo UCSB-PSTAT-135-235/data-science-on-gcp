@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e  # Exit immediately if a command exits with a non-zero status
+
 if [ "$#" -ne 2 ]; then
     echo "Usage: ./bqload.sh  csv-bucket-name YEAR"
     exit

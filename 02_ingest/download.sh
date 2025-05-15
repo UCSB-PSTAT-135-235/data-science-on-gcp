@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e  # Exit immediately if a command exits with a non-zero status
+
 # Note that we have commented out the BTS website, and are instead
 # using a mirror. This is because the BTS website is frequently down
 SOURCE=https://storage.googleapis.com/data-science-on-gcp/edition2/raw
